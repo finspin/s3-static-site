@@ -10,8 +10,8 @@ The modules assume that the domain has been registered with Route 53 and the NS 
 
 ## How to use
 
-1. First create certificate by running the `./certificate` module. It will output certificate ARN which needs to be passed to the `./site` module
-2. Run the `./site` module
+1. First create certificate by running the `./modules/certificate` module. It will output certificate ARN which needs to be passed to the `./modules/site` module
+2. Run the `./modules/site` module
 
 
 ## Why 2 separate modules?
